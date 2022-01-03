@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2K23 SPAJ PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <h2>SPAJ 2K23 SET PORTFOLIO GALLERY</h2>
+        <!-- <video width="500" height="500" controls>
+            <source src="2k23.mp4" type="video/mp4">
+          </video> -->
+        <ul>
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="boys">Boys</li>
+            <li class="list" data-filter="girls">Girls</li>
+            <li class="list" data-filter="a">A Class</li>
+            <li class="list" data-filter="b">B Class</li>
+            <li class="list" data-filter="c">C Class</li>
+        </ul>
+        <div class="full-img" id="fullImgBox">
+            <img src="pic1.png" id="fullImg">
+            <span onclick="closeFullImg()"><img src="close.png"></span>
+        </div>
+
+        <div class="product">
+            <div class="itemBox" data-item="boys a"><img id="myImg" src="akin.jpg"
+                    onclick="openFullImg(this.src)">Akinmojutimi David
+            </div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="mimi2.jpg"
+                    onclick="openFullImg(this.src)">Miracle Anagor</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="obasi.jpg" onclick="openFullImg(this.src)">Obasi
+                Onyedika</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="favour.jpg"
+                    onclick="openFullImg(this.src)">Favour Ofoegbu</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="mirabel.jpg"
+                    onclick="openFullImg(this.src)">Mirabel Mmaduabuchi</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="pic1.png"
+                    onclick="openFullImg(this.src)">Akachukwu Egboluche</div>
+
+            <div class="itemBox" data-item="boys"><img id="myImg" src="chibuzo.jpg"
+                    onclick="openFullImg(this.src)">Chibuzo Ezerioha</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="chidera.jpg"
+                    onclick="openFullImg(this.src)">Chidera Okorie</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="jerry.jpg"
+                    onclick="openFullImg(this.src)">Jeremiah Oladipo</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="princess.jpg"
+                    onclick="openFullImg(this.src)">Princess Ogbunude</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="ujiji.png" onclick="openFullImg(this.src)">Daniel
+                Ujiji</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="chukwura.jpg"
+                    onclick="openFullImg(this.src)">Chidera Chukwura</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="ella.jpg"
+                    onclick="openFullImg(this.src)">Daniella...</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="eboh.jpg" onclick="openFullImg(this.src)">Eboh
+                Darlington</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="hafsat.jpg"
+                    onclick="openFullImg(this.src)">Hafsat Sanusi</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="elobe.jpg" onclick="openFullImg(this.src)">Ifenna
+                Elobe</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="chika.jpg" onclick="openFullImg(this.src)">Chika
+                Bejamin</div>
+
+            <div class="itemBox" data-item="girls"><img id="myImg" src="chioma.jpg"
+                    onclick="openFullImg(this.src)">Chioma...</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="kelvin.jpg"
+                    onclick="openFullImg(this.src)">Kelvin Duru</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="praise.jpg"
+                    onclick="openFullImg(this.src)">Praise Chidowere</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="favourot.jpg"
+                    onclick="openFullImg(this.src)">Favour Otutubuike</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="benita.png"
+                    onclick="openFullImg(this.src)">Benita Ezembakwe</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="caleb.png" onclick="openFullImg(this.src)">Caleb
+                Okorie</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="chisom.jpg"
+                    onclick="openFullImg(this.src)">Chisom Levi</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="ebube.jpg" onclick="openFullImg(this.src)">Ebube
+                Azodo</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="deborah.jpg"
+                    onclick="openFullImg(this.src)">Deborah Olatayo</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="collins.jpg"
+                    onclick="openFullImg(this.src)">Collins Anyansi</div>
+            <div class="itemBox" data-item="girls"><img id="myImg" src="chizurum.jpg"
+                    onclick="openFullImg(this.src)">Chizurum Ogbogu</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="fortune.jpg"
+                    onclick="openFullImg(this.src)">Fortune Eze</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="charles.jpg"
+                    onclick="openFullImg(this.src)">Sunday Charles</div>
+            <div class="itemBox" data-item="boys"><img id="myImg" src="epunam.jpg"
+                    onclick="openFullImg(this.src)">Emmanuel
+                Epunam</div>
+
+            <div class="itemBox" data-item="girls"><img id="myImg" src="oluchi.jpg"
+                    onclick="openFullImg(this.src)">Oluchi
+                Iwuamadi</div>
+
+            <div id="myModal" class="modal">
+                <span class="close"><img src="close.png" alt=""></span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
+        </div>
+        <footer>All Rights reserved. King Code Studios. &trade; <br>
+            &copy;<a href="https://www.akaportfolio.netlify.app" target="_blank"> Akachukwu Egboluche 2021</a>&trade;
+        </footer>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText">Make Your Suggestions.</h2>
+            <p>If you feel that there is any correction or objection, please feel free to message me below.</p>
+        </div>
+        <div class="contactForm">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+                <input type="text" name="" placeholder="Please, Enter your fullname...">
+            </div>
+            <div class="inputBox">
+                <input type="email" name="" placeholder="Enter your Email or Phone Number">
+            </div>
+            <div class="inputBox">
+                <textarea name="" placeholder="Type your Message Here..."></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" name="" value="Send Message">
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
