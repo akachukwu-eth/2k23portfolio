@@ -33,11 +33,12 @@ section ul li {
     letter-spacing: 1px;
     cursor: pointer;
     border-radius: 15px;
+    color: #111;
 }
 
 section ul li.active {
     background: #03a9f4;
-    color: #fff;
+    color: #111;
 }
 
 .product {
